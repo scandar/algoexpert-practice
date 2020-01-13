@@ -7,9 +7,9 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "mocha tests"
+    "test": "mocha tests/*"
   },
-  "author": "",
+  "author": "scandar",
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
