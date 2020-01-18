@@ -41,12 +41,12 @@ const BST = {
 
 describe('closest value in BST recursive', () => {
   it('returns closest value to 12', () => {
-    assert.deepStrictEqual(13, closestValueInBSTRecursive(BST, 12));
+    assert.equal(13, closestValueInBSTRecursive(BST, 12));
   });
 });
 
 describe('closest value in BST iterative', () => {
   it('returns closest value to 12', () => {
-    assert.deepStrictEqual(13, closestValueInBSTIterative(BST, 12));
+    assert.equal(13, closestValueInBSTIterative(BST, 12));
   });
 });
